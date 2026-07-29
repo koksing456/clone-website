@@ -181,6 +181,7 @@ export function CommunityHome() {
             src="/images/sepang-hero.png"
             alt="Travellers walking toward a tropical motorsport grandstand"
             fill
+            unoptimized
             priority
             sizes="(max-width: 900px) 100vw, 68vw"
           />
@@ -204,13 +205,13 @@ export function CommunityHome() {
 
         <div className="hero-side">
           <article className="side-story">
-            <Image src="/images/kl-transit.png" alt="" fill sizes="(max-width: 900px) 100vw, 32vw" />
+            <Image src="/images/kl-transit.png" alt="" fill unoptimized sizes="(max-width: 900px) 100vw, 32vw" />
             <div className="story-shade" />
             <h2>KL or KLIA: choose the journey you want</h2>
             <ChevronRight aria-hidden="true" />
           </article>
           <article className="side-story">
-            <Image src="/images/sepang-hero.png" alt="" fill sizes="(max-width: 900px) 100vw, 32vw" />
+            <Image src="/images/sepang-hero.png" alt="" fill unoptimized sizes="(max-width: 900px) 100vw, 32vw" />
             <div className="story-shade" />
             <h2>Build a safer circuit transport plan</h2>
             <ChevronRight aria-hidden="true" />
@@ -244,6 +245,7 @@ export function CommunityHome() {
                 src={item.image}
                 alt=""
                 fill
+                unoptimized
                 loading="eager"
                 sizes="(max-width: 700px) 78vw, 25vw"
                 style={{ objectPosition: item.position }}
@@ -282,6 +284,7 @@ export function CommunityHome() {
           src="/images/community-meetup.png"
           alt="Travellers sharing plans during a public meetup"
           fill
+          unoptimized
           loading="eager"
           sizes="100vw"
         />
