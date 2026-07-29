@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": false
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "vite.config.ts",
+    "worker/**/*.ts"
+  ],
+  "exclude": [
+    ".next",
+    ".vinext",
+    "dist",
+    "node_modules"
+  ]
+}
